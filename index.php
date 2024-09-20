@@ -10,7 +10,7 @@
 	<h1>Password Hash</h1>
 	<form action="" method="post">
 		<div>
-			<input type="text" name="password" value="<?= (isset($_POST['password']) ? $_POST['password'] : ''); ?>">
+			<input type="text" name="password" autocomplete="off" value="<?= (isset($_POST['password']) ? $_POST['password'] : ''); ?>">
 			<button name="password_submit">Generate</button>
 		</div>
 		<?=
